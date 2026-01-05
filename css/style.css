@@ -2124,4 +2124,20 @@ button, input, textarea, select {
         color: black !important;
         text-decoration: underline;
     }
+    /* ===== NUEVO: HEADER & HERO RESPONSIVO ===== */
+@media (max-width: 768px) {
+    /* Aquí van todos los ajustes para móviles */
+    .header { padding: 10px 0; }
+    .logo-text h1 { font-size: 1.5rem; }
+    .specialty { font-size: 0.9rem; }
+    .nav-menu { display: none; }
+    .menu-toggle { display: block; }
+    .nav-actions { gap: 0.5rem; }
+    .mobile-menu { display: flex; flex-direction: column; gap: 10px; padding: 10px 0; }
+    .hero-text h2 { font-size: 1.8rem; }
+    .hero-text p, .hero-subtitle, .hero-description { font-size: 0.9rem; }
+    .hero-cta a { font-size: 0.9rem; padding: 10px 15px; }
+    .hero-stats .stat-number { font-size: 1.2rem; }
 }
+}
+
