@@ -1095,3 +1095,4 @@ function initBackToTop() {
         
         #backToTop.visible {
             opacity: 1;
+
