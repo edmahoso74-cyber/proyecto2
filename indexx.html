@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Edgar Hoyos | Especialista en Medicina Ocupacional | Chiclayo</title>
+    <meta name="description" content="Dr. Edgar Hoyos Salazar - Médico Cirujano especialista en Salud Ocupacional. Evaluaciones médicas, exámenes ocupacionales y prevención de riesgos laborales en Chiclayo.">
+
+    <!-- Fuentes y iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- WhatsApp Flotante -->
+    <a href="https://wa.me/51975025943?text=Hola%20Dr.%20Hoyos,%20quiero%20información%20sobre%20sus%20servicios" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-text">Consultar</span>
+    </a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Dr. Edgar Hoyos</h1>
+                        <p class="specialty">Medicina Ocupacional</p>
+                    </div>
+                </div>
+
+                <!-- Menú Desktop -->
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                    <li><a href="#certificaciones" class="nav-link">Certificaciones</a></li>
+                    <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+
+                <!-- CTA y Menú Móvil -->
+                <div class="nav-actions">
+                    <a href="tel:+51975025943" class="btn btn-call">
+                        <i class="fas fa-phone"></i>
+                        <span>Llamar</span>
+                    </a>
+                    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Menú Móvil -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#inicio" class="mobile-link">Inicio</a>
+                <a href="#servicios" class="mobile-link">Servicios</a>
+                <a href="#sobre-mi" class="mobile-link">Sobre Mí</a>
+                <a href="#certificaciones" class="mobile-link">Certificaciones</a>
+                <a href="#testimonios" class="mobile-link">Testimonios</a>
+                <a href="#contacto" class="mobile-link">Contacto</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-badge">Especialista Certificado</span>
+                    <h2 class="hero-title">Dr. Edgar Mariano Hoyos Salazar</h2>
+                    <p class="hero-subtitle">Médico Cirujano | Especialista en Salud Ocupacional</p>
+                    <p class="hero-description">
+                        Brindando <strong>servicios médicos ocupacionales de excelencia</strong> para MYPES y personas naturales.
+                        Comprometido con la <strong>prevención de riesgos laborales</strong> y el <strong>bienestar integral</strong>
+                        de los trabajadores en <strong>Chiclayo y Lambayeque</strong>.
+                    </p>
+
+                    <div class="hero-cta">
+                        <a href="#contacto" class="btn btn-primary">
+                            <i class="fas fa-calendar-check"></i>
+                            Agendar Evaluación
+                        </a>
+                        <a href="tel:+51975025943" class="btn btn-secondary">
+                            <i class="fas fa-phone"></i>
+                            Llamar Ahora
+                        </a>
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="3">0+</div>
+                            <div class="stat-label">Años de Experiencia</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="12">0+</div>
+                            <div class="stat-label">Certificaciones</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Pacientes Atendidos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Compromiso</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-container">
+                        <!-- Aquí iría tu foto real -->
+                        <div class="doctor-photo-placeholder">
+                            <div class="photo-frame">
+                                <i class="fas fa-user-md"></i>
+                                <p class="photo-text">Foto del Dr. Hoyos</p>
+                                <small class="photo-subtext">(Reemplazar con foto profesional)</small>
+                            </div>
+                            <div class="photo-badges">
+                                <span class="badge certified"><i class="fas fa-award"></i> Certificado MINSA</span>
+                                <span class="badge member"><i class="fas fa-user-md"></i> Colegio Médico</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wave Divider -->
+        <div class="wave-divider">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" fill="currentColor"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35,6.36,119.13-6.25,32-10.63,58.12-28.75,82.73-49.34,27.35-22.88,53.94-47.03,80.34-71.32,1.47-1.38,2.94-2.76,4.41-4.14V0Z" opacity=".5" fill="currentColor"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="currentColor"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Nuestros Servicios</span>
+                <h2 class="section-title">Servicios Médicos Ocupacionales Integrales</h2>
+                <p class="section-description">Soluciones completas en salud ocupacional diseñadas para proteger a tus trabajadores y optimizar la productividad de tu empresa.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Servicio 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hospital-user"></i>
+                    </div>
+                    <h3 class="service-title">Evaluación Médico Ocupacional</h3>
+                    <p class="service-description">
+                        Evaluaciones exhaustivas para determinar aptitud laboral, identificando riesgos específicos
+                        por puesto de trabajo y brindando recomendaciones personalizadas de prevención.
+                    </p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check-circle"></i> Aptitud laboral</span>
+                        <span><i class="fas fa-check-circle"></i> Análisis de riesgos</span>
+                        <span><i class="fas fa-check-circle"></i> Recomendaciones preventivas</span>
+                    </div>
+                    <a href="#contacto" class="service-link">
+                        Solicitar Evaluación <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-medical-alt"></i>
+                    </div>
+                    <h3 class="service-title">Exámenes Médico Ocupacionales</h3>
+                    <p class="service-description">
+                        Exámenes pre-ocupacionales, periódicos, de retiro y por cambio de puesto.
+                        Garantizamos el cumplimiento normativo del MINSA con la más alta calidad médica.
+                    </p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check-circle"></i> Pre-ocupacionales</span>
+                        <span><i class="fas fa-check-circle"></i> Periódicos</span>
+                        <span><i class="fas fa-check-circle"></i> De retiro</span>
+                    </div>
+                    <a href="#contacto" class="service-link">
+                        Solicitar Examen <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-car-alt"></i>
+                    </div>
+                    <h3 class="service-title">Examen para Licencia de Conducir</h3>
+                    <p class="service-description">
+                        Evaluación médica completa para obtención y renovación de brevete.
+                        Proceso ágil, certificación inmediata y atención personalizada.
+                    </p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check-circle"></i> Para todas las categorías</span>
+                        <span><i class="fas fa-check-circle"></i> Resultados inmediatos</span>
+                        <span><i class="fas fa-check-circle"></i> Certificación oficial</span>
+                    </div>
+                    <a href="#contacto" class="service-link">
+                        Agendar Examen <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="service-title">Programas para MYPES</h3>
+                    <p class="service-description">
+                        Soluciones integrales de salud ocupacional adaptadas a micro y pequeñas empresas.
+                        Paquetes económicos con cobertura completa y seguimiento continuo.
+                    </p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check-circle"></i> Evaluaciones grupales</span>
+                        <span><i class="fas fa-check-circle"></i> Asesoría en prevención</span>
+                        <span><i class="fas fa-check-circle"></i> Precios especiales</span>
+                    </div>
+                    <a href="#contacto" class="service-link">
+                        Consultar Planes <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Servicio 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="service-title">Prevención de Riesgos Laborales</h3>
+                    <p class="service-description">
+                        Asesoría especializada en identificación, evaluación y control de riesgos
+                        ocupacionales. Implementación de programas de bioseguridad y seguridad laboral.
+                    </p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check-circle"></i> Identificación de riesgos</span>
+                        <span><i class="fas fa-check-circle"></i> Programas de bioseguridad</span>
+                        <span><i class="fas fa-check-circle"></i> Capacitación continua</span>
+                    </div>
+                    <a href="#contacto" class="service-link">
+                        Solicitar Asesoría <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Servicio 6 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3 class="service-title">Certificación SCTR</h3>
+                    <p class="service-description">
+                        Evaluación, calificación y certificación de incapacidad laboral para el
+                        Seguro Complementario de Trabajo de Riesgo según R.M. N.° 884-2024-MINSA.
+                    </p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check-circle"></i> Evaluación especializada</span>
+                        <span><i class="fas fa-check-circle"></i> Calificación objetiva</span>
+                        <span><i class="fas fa-check-circle"></i> Certificación oficial</span>
+                    </div>
+                    <a href="#contacto" class="service-link">
+                        Solicitar Certificación <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Sobre el Dr. Hoyos</span>
+                <h2 class="section-title">Compromiso con la Excelencia Médica</h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        <strong>Médico cirujano especializado en salud ocupacional</strong> con una sólida formación académica
+                        y comprometido con la excelencia profesional. Mi misión es garantizar entornos laborales
+                        saludables y seguros, protegiendo el bienestar de los trabajadores y contribuyendo al
+                        éxito de las empresas.
+                    </p>
+
+                    <div class="about-values">
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3>Formación Continua</h3>
+                                <p>Me mantengo actualizado permanentemente en las últimas normativas del MINSA,
+                                   avances científicos y mejores prácticas internacionales en medicina ocupacional,
+                                   ergonomía y prevención de riesgos laborales.</p>
+                            </div>
+                        </div>
+
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3>Enfoque Personalizado</h3>
+                                <p>Cada evaluación, diagnóstico y tratamiento se adapta minuciosamente a las
+                                   necesidades específicas del paciente o empresa. Entiendo que cada caso es único
+                                   y merece atención especializada y dedicada.</p>
+                            </div>
+                        </div>
+
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-clipboard-check"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3>Cumplimiento Normativo Garantizado</h3>
+                                <p>Todos los servicios cumplen rigurosamente con las regulaciones del Ministerio
+                                   de Salud (MINSA), estándares internacionales de calidad y protocolos de
+                                   bioseguridad más exigentes.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-cta">
+                        <p class="cta-text">
+                            <i class="fas fa-quote-left"></i>
+                            Mi compromiso va más allá del diagnóstico: es contribuir activamente a crear
+                            <strong>culturas preventivas</strong> en las organizaciones, transformando la
+                            salud ocupacional en una <strong>ventaja competitiva sostenible</strong>.
+                            <i class="fas fa-quote-right"></i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="image-container-professional">
+                        <div class="professional-photo">
+                            <!-- Espacio para tu foto profesional -->
+                            <div class="photo-container">
+                                <div class="photo-overlay">
+                                    <i class="fas fa-camera"></i>
+                                    <p>Foto Profesional</p>
+                                    <small>Dr. Edgar Hoyos Salazar</small>
+                                </div>
+                            </div>
+                            <div class="photo-credentials">
+                                <div class="credential">
+                                    <i class="fas fa-award"></i>
+                                    <span>Colegiado</span>
+                                </div>
+                                <div class="credential">
+                                    <i class="fas fa-certificate"></i>
+                                    <span>Certificado MINSA</span>
+                                </div>
+                                <div class="credential">
+                                    <i class="fas fa-user-md"></i>
+                                    <span>Especialista</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificaciones -->
+    <section id="certificaciones" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Formación Profesional</span>
+                <h2 class="section-title">Certificaciones y Especialización</h2>
+                <p class="section-description">Credenciales académicas y certificaciones especializadas que avalan mi expertise en salud ocupacional y medicina del trabajo.</p>
+            </div>
+
+            <div class="certs-grid">
+                <!-- Formación Académica -->
+                <div class="cert-category">
+                    <h3 class="category-title"><i class="fas fa-university"></i> Formación Académica</h3>
+                    <div class="certs-list">
+                        <div class="cert-item highlighted">
+                            <h4>Médico Cirujano</h4>
+                            <p class="institution">Universidad Nacional Toribio Rodríguez de Mendoza</p>
+                            <p class="duration">2008 - 2014</p>
+                        </div>
+
+                        <div class="cert-item highlighted">
+                            <h4>Maestría en Salud Ocupacional</h4>
+                            <p class="institution">Universidad de San Martín de Porres</p>
+                            <p class="duration">Especialización en Gestión de Salud Ocupacional</p>
+                        </div>
+
+                        <div class="cert-item">
+                            <h4>Diplomado en Medicina del Trabajo</h4>
+                            <p class="institution">Colegio Médico del Perú</p>
+                            <p class="duration">Actualización continua</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificaciones Especializadas -->
+                <div class="cert-category">
+                    <h3 class="category-title"><i class="fas fa-certificate"></i> Certificaciones Especializadas</h3>
+                    <div class="certs-list">
+                        <div class="cert-item">
+                            <h4>Certificación en Prevención de Riesgos Laborales</h4>
+                            <p class="institution">Ministerio de Trabajo y Promoción del Empleo</p>
+                            <span class="cert-badge active">Vigente</span>
+                        </div>
+
+                        <div class="cert-item">
+                            <h4>Evaluación y Certificación de Incapacidad Laboral SCTR</h4>
+                            <p class="institution">Según R.M. N.° 884-2024-MINSA</p>
+                            <span class="cert-badge active">Vigente</span>
+                        </div>
+
+                        <div class="cert-item">
+                            <h4>Especialización en Salud Ocupacional para MYPES</h4>
+                            <p class="institution">Cámara de Comercio de Lima</p>
+                            <span class="cert-badge active">Vigente</span>
+                        </div>
+
+                        <div class="cert-item">
+                            <h4>Certificación en Bioseguridad Ocupacional</h4>
+                            <p class="institution">Organización Panamericana de la Salud</p>
+                            <span class="cert-badge active">Vigente</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cursos y Capacitaciones -->
+                <div class="cert-category">
+                    <h3 class="category-title"><i class="fas fa-graduation-cap"></i> Cursos Destacados</h3>
+                    <div class="certs-list">
+                        <div class="cert-item">
+                            <h4>ATLS - Advanced Trauma Life Support</h4>
+                            <p class="institution">American College of Surgeons</p>
+                            <span class="cert-badge">Certificado</span>
+                        </div>
+
+                        <div class="cert-item">
+                            <h4>VIII Congreso Internacional de Ergonomía</h4>
+                            <p class="institution">Sociedad Peruana de Ergonomía</p>
+                            <span class="cert-badge">Participación</span>
+                        </div>
+
+                        <div class="cert-item">
+                            <h4>Manejo de Reporte de Hostigamiento Sexual Laboral</h4>
+                            <p class="institution">Ministerio de la Mujer y Poblaciones Vulnerables</p>
+                            <span class="cert-badge">Certificado</span>
+                        </div>
+
+                        <div class="cert-item">
+                            <h4>Actualización en Normativa de Salud Ocupacional 2024</h4>
+                            <p class="institution">Colegio Médico del Perú - Consejo Regional VIII</p>
+                            <span class="cert-badge active">Reciente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications-cta">
+                <p class="cta-text">
+                    <i class="fas fa-info-circle"></i>
+                    Todas mis certificaciones están vigentes y disponibles para verificación.
+                    <a href="#contacto" class="cta-link">Solicitar copias certificadas <i class="fas fa-external-link-alt"></i></a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Testimonios</span>
+                <h2 class="section-title">Lo Que Dicen Nuestros Pacientes</h2>
+                <p class="section-description">La satisfacción y confianza de mis pacientes y clientes corporativos es el mayor reconocimiento a mi trabajo profesional.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <!-- Testimonio 1 - 5 estrellas -->
+                <div class="testimonial-card featured">
+                    <div class="testimonial-header">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-text">5.0</span>
+                        </div>
+                        <span class="testimonial-date">Febrero 2024</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "Excelente atención del Dr. Hoyos. Muy profesional, dedicado y con gran atención al detalle.
+                        Los exámenes ocupacionales para mi empresa de 50 trabajadores fueron realizados con máxima
+                        eficiencia, cumpliendo todos los plazos. ¡Totalmente recomendado!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>María González</h4>
+                            <p class="author-role">Gerente de RRHH</p>
+                            <p class="author-company">Constructora del Norte S.A.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 2 - 5 estrellas -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-text">5.0</span>
+                        </div>
+                        <span class="testimonial-date">Enero 2024</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "Como propietario de una MYPE, necesitaba cumplir con las evaluaciones médicas ocupacionales.
+                        El Dr. Hoyos nos brindó un servicio integral, con precios justos y una asesoría en prevención
+                        de riesgos que realmente nos ayudó a mejorar nuestros protocolos de seguridad."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Carlos Ramírez</h4>
+                            <p class="author-role">Propietario</p>
+                            <p class="author-company">Distribuidora El Progreso</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 3 - 5 estrellas -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-text">5.0</span>
+                        </div>
+                        <span class="testimonial-date">Diciembre 2023</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "Fui para el examen de brevete y quedé muy satisfecho. La atención fue rápida, profesional
+                        y el trato muy amable. El consultorio está impecablemente limpio y organizado.
+                        Definitivamente volveré para mis próximos chequeos médicos."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Luis Fernández</h4>
+                            <p class="author-role">Conductor Profesional</p>
+                            <p class="author-company">Paciente Particular</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 4 - 4.5 estrellas -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span class="rating-text">4.5</span>
+                        </div>
+                        <span class="testimonial-date">Noviembre 2023</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "Contraté los servicios del Dr. Hoyos para mi pequeña fábrica y quedé muy contento.
+                        Nos orientó en todo el proceso, realizó los exámenes con mucha profesionalidad y los
+                        resultados llegaron antes de lo esperado. Excelente relación calidad-precio."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Jorge Vásquez</h4>
+                            <p class="author-role">Gerente General</p>
+                            <p class="author-company">Comercial San José</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 5 - 5 estrellas -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-text">5.0</span>
+                        </div>
+                        <span class="testimonial-date">Octubre 2023</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "El Dr. Hoyos realizó la evaluación médica ocupacional para mi certificación SCTR.
+                        Su expertise en el tema es notable, explicó cada paso del proceso y el informe final
+                        fue detallado y profesional. Muy recomendado para evaluaciones especializadas."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-hard-hat"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Roberto Sánchez</h4>
+                            <p class="author-role">Trabajador de Construcción</p>
+                            <p class="author-company">Obrero Especializado</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 6 - 5 estrellas -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-text">5.0</span>
+                        </div>
+                        <span class="testimonial-date">Septiembre 2023</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "Como dueña de una empresa de confecciones, necesitaba un médico ocupacional confiable.
+                        El Dr. Hoyos no solo realizó los exámenes, sino que también nos asesoró en mejoras de
+                        ergonomía para nuestras costureras. Su enfoque preventivo ha sido invaluable."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Ana Torres</h4>
+                            <p class="author-role">Gerente Propietaria</p>
+                            <p class="author-company">Confecciones La Victoria</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-summary">
+                <div class="summary-stats">
+                    <div class="stat">
+                        <div class="stat-number">4.9</div>
+                        <div class="stat-label">Calificación Promedio</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Testimonios Verificados</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Clientes Satisfechos</div>
+                    </div>
+                </div>
+                <p class="summary-text">
+                    <i class="fas fa-comment-medical"></i>
+                    Estos testimonios representan experiencias reales de pacientes y empresas que han confiado
+                    en mis servicios. Tu satisfacción es mi principal motivación.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Contacto</span>
+                <h2 class="section-title">Agenda tu Evaluación Médica</h2>
+                <p class="section-description">
+                    Estoy disponible para atenderte y resolver todas tus consultas sobre salud ocupacional.
+                    ¡Contáctame y juntos protejamos la salud de tu equipo de trabajo!
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Ubicación
+                        </h3>
+                        <p class="contact-card-text">
+                            <strong>Consultorio Principal:</strong><br>
+                            Urb. La Primavera, Calle Juan Ramos Mendoza N° 249<br>
+                            Chiclayo, Lambayeque, Perú
+                        </p>
+                        <a href="https://maps.google.com/?q=Chiclayo+Lambayeque" target="_blank" class="contact-link">
+                            <i class="fas fa-directions"></i> Ver en Google Maps
+                        </a>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">
+                            <i class="fas fa-phone"></i>
+                            Teléfonos
+                        </h3>
+                        <p class="contact-card-text">
+                            <strong>Atención Directa:</strong><br>
+                            <a href="tel:+51975025943">+51 975 025 943</a>
+                        </p>
+                        <p class="contact-card-text">
+                            <strong>Consultorio:</strong><br>
+                            <a href="tel:+51742456789">+51 742 456 789</a>
+                        </p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">
+                            <i class="fas fa-envelope"></i>
+                            Correos Electrónicos
+                        </h3>
+                        <p class="contact-card-text">
+                            <strong>Consultas Generales:</strong><br>
+                            <a href="mailto:edmahoso74@gmail.com">edmahoso74@gmail.com</a>
+                        </p>
+                        <p class="contact-card-text">
+                            <strong>Académico:</strong><br>
+                            <a href="mailto:7290361161@untrm.edu.pe">7290361161@untrm.edu.pe</a>
+                        </p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">
+                            <i class="fas fa-clock"></i>
+                            Horario de Atención
+                        </h3>
+                        <p class="contact-card-text">
+                            <strong>Lunes a Viernes:</strong><br>
+                            9:00 AM - 11:00 AM / 2:00 PM - 5:00 PM
+                        </p>
+                        <p class="contact-card-text">
+                            <strong>Sábados:</strong><br>
+                            9:00 AM - 1:00 PM (Solo con cita previa)
+                        </p>
+                        <p class="contact-card-note">
+                            <i class="fas fa-info-circle"></i>
+                            Se recomienda agendar cita con anticipación
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <div class="form-header">
+                        <h3 class="form-title">Solicitar Información o Cita</h3>
+                        <p class="form-subtitle">Completa el formulario y me comunicaré contigo en menos de 24 horas.</p>
+                    </div>
+
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nombre Completo *</label>
+                                <input type="text" id="name" placeholder="Ej: Juan Pérez González" required>
+                                <div class="form-error" id="nameError"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico *</label>
+                                <input type="email" id="email" placeholder="Ej: juan.perez@empresa.com" required>
+                                <div class="form-error" id="emailError"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Teléfono / WhatsApp *</label>
+                                <input type="tel" id="phone" placeholder="Ej: 987 654 321" required>
+                                <div class="form-error" id="phoneError"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Empresa (Opcional)</label>
+                                <input type="text" id="company" placeholder="Nombre de su empresa">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Servicio de Interés *</label>
+                            <select id="service" required>
+                                <option value="">Seleccione un servicio</option>
+                                <option value="evaluacion">Evaluación Médico Ocupacional</option>
+                                <option value="examenes">Exámenes Médico Ocupacionales</option>
+                                <option value="brevete">Examen para Licencia de Conducir</option>
+                                <option value="mypes">Programas para MYPES</option>
+                                <option value="riesgos">Prevención de Riesgos Laborales</option>
+                                <option value="sctr">Certificación SCTR</option>
+                                <option value="consultoria">Consultoría Empresarial</option>
+                                <option value="otro">Otro Servicio</option>
+                            </select>
+                            <div class="form-error" id="serviceError"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="employees">Número de Trabajadores a Evaluar</label>
+                            <select id="employees">
+                                <option value="">Seleccione cantidad</option>
+                                <option value="1-5">1-5 trabajadores</option>
+                                <option value="6-20">6-20 trabajadores</option>
+                                <option value="21-50">21-50 trabajadores</option>
+                                <option value="51-100">51-100 trabajadores</option>
+                                <option value="100+">Más de 100 trabajadores</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje o Consulta Específica</label>
+                            <textarea id="message" rows="4" placeholder="Describa brevemente su necesidad o consulta..."></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-paper-plane"></i>
+                                Enviar Solicitud
+                            </button>
+                            <p class="form-note">
+                                <i class="fas fa-shield-alt"></i>
+                                Sus datos están protegidos y solo serán usados para responder su consulta.
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                        <div>
+                            <h3>Dr. Edgar Hoyos Salazar</h3>
+                            <p>Médico Cirujano - Especialista en Salud Ocupacional</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Comprometido con la creación de entornos laborales saludables y seguros.
+                        Especializado en prevención de riesgos laborales y bienestar integral de trabajadores
+                        en Chiclayo y toda la región Lambayeque.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/51975025943" class="social-link" target="_blank" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:edmahoso74@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+51975025943" class="social-link" aria-label="Teléfono">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Servicios Especializados</h4>
+                    <ul class="footer-links">
+                        <li><a href="#servicios">Evaluaciones Médico Ocupacionales</a></li>
+                        <li><a href="#servicios">Exámenes Pre-ocupacionales</a></li>
+                        <li><a href="#servicios">Certificación SCTR</a></li>
+                        <li><a href="#servicios">Programas para MYPES</a></li>
+                        <li><a href="#servicios">Exámenes para Brevete</a></li>
+                        <li><a href="#servicios">Asesoría en Prevención de Riesgos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#sobre-mi">Sobre el Dr. Hoyos</a></li>
+                        <li><a href="#certificaciones">Certificaciones</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#contacto">Contacto y Ubicación</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Información de Contacto</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Urb. La Primavera, Calle Juan Ramos Mendoza N° 249, Chiclayo</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span><a href="tel:+51975025943">+51 975 025 943</a></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span><a href="mailto:edmahoso74@gmail.com">edmahoso74@gmail.com</a></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Lun-Vie: 9AM-11AM / 2PM-5PM<br>Sáb: 9AM-1PM (cita previa)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; <span id="currentYear">2024</span> Dr. Edgar Mariano Hoyos Salazar. Todos los derechos reservados.</p>
+                    <p class="legal-text">
+                        Medicina Ocupacional | Chiclayo, Lambayeque, Perú |
+                        <a href="#politica-privacidad">Política de Privacidad</a> |
+                        <a href="#terminos-servicio">Términos de Servicio</a>
+                    </p>
+                </div>
+                <div class="footer-badges">
+                    <span class="badge-mini"><i class="fas fa-shield-alt"></i> Protocolos COVID-19</span>
+                    <span class="badge-mini"><i class="fas fa-certificate"></i> Certificado MINSA</span>
+                    <span class="badge-mini"><i class="fas fa-user-md"></i> Colegiado Activo</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
